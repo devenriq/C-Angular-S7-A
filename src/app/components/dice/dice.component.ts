@@ -11,10 +11,12 @@ export class DiceComponent {
   rollDice(){
     let result = Math.floor(Math.random()*7)
     this.listNumbers.push(result)
-    console.log(this.listNumbers[this.listNumbers.length-2])
+
     if(this.listNumbers[this.listNumbers.length-2] === result){
       result = Math.floor(Math.random()*7)
+      console.log('nuevo resultado', result)
     }
+
     return result
   }
 }

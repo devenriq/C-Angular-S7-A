@@ -5,7 +5,7 @@ import { DiceComponent } from './dice/dice.component';
 
 
 @NgModule({
-  declarations: [DiceComponent],
+  declarations: [],
   imports: [
     CommonModule
   ]
