@@ -1,3 +1,4 @@
 <div class="container bg-dark rounded h-100 text-white">
-  <button class="btn btn-primary">Roll me!</button>
+  <button class="btn btn-primary" (click)="rollDice()">Roll me!</button>
+  <div class="bg-success container rounded dice">result {{ rollDice() }}</div>
 </div>
